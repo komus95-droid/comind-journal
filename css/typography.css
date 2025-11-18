@@ -1,0 +1,45 @@
+/* === Типографика === */
+h1, h2, h3 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+    margin-bottom: 1rem;
+}
+
+.link-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link-more:hover {
+    text-decoration: underline;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--color-text-light);
+}
+
+.form-success {
+    padding: 1rem;
+    background: #d1fae5;
+    border-radius: var(--radius);
+    color: #065f46;
+}
+
+.checklist li {
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.checklist li ul li {
+    font-weight: 400;
+}
