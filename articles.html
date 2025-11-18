@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статьи — CoMind</title>
+    <meta name="description" content="Все статьи журнала CoMind про совместное мышление человека и ИИ">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">CoMind</span>
+                <span class="logo-tag">Human+AI Journal</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="articles.html" class="active">Статьи</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Все статьи</h1>
+                <p class="subtitle">
+                    Каждая статья — результат живого диалога между человеком и ИИ-ассистентом
+                </p>
+            </div>
+        </section>
+
+        <section class="articles-filter">
+            <div class="container">
+                <div class="filter-tags" id="filter-tags">
+                    <!-- Кнопки-теги отрисует JS -->
+                </div>
+            </div>
+        </section>
+
+        <section class="articles-list">
+            <div class="container">
+                <div class="articles-grid" id="articles-grid">
+                    <!-- Список статей отрисует JS -->
+                </div>
+                <div class="empty-state" id="empty-state" style="display: none;">
+                    <p>Статьи с таким тегом не найдены</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 CoMind — Human+AI Journal. Все материалы созданы в диалоге.</p>
+                <p>Контакт: <a href="mailto:hello@comind.journal">hello@comind.journal</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/articles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
