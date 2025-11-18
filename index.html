@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoMind — Human+AI Journal</title>
+    <meta name="description" content="Журнал живых разборов, где человек и искусственный интеллект вместе разбирают реальные задачи">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">CoMind</span>
+                <span class="logo-tag">Human+AI Journal</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="about.html">О проекте</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">CoMind — Human+AI Journal</h1>
+                <p class="hero-subtitle">
+                    Журнал живых разборов, где человек и искусственный интеллект вместе разбирают реальные задачи, 
+                    а не просто переписывают результаты поиска.
+                </p>
+                <div class="hero-description">
+                    <p>
+                        CoMind — это библиотека практичных разборов, рождающихся из диалога. Человек приносит свой опыт, 
+                        вопросы и контекст. ИИ помогает структурировать, докрутить и собрать из этого рабочие решения: 
+                        схемы, чек-листы, FAQ. Каждый материал честно помечен как результат совместной работы человека и ИИ-ассистента.
+                    </p>
+                </div>
+                <a href="articles.html" class="button-primary">Читать статьи</a>
+            </div>
+        </section>
+
+        <!-- About Preview -->
+        <section class="about-preview">
+            <div class="container">
+                <h2>О проекте</h2>
+                <p class="lead">
+                    CoMind — журнал разборов, созданных совместно человеком и искусственным интеллектом. 
+                    Здесь не копируют Википедию и не собирают случайные факты из поисковиков.
+                </p>
+                <p>
+                    В основе каждого материала лежит реальный вопрос или задача. Сначала человек и ИИ обсуждают её 
+                    в формате диалога: уточняют, спорят, рассматривают варианты. Потом из этого диалога рождается 
+                    структурированный разбор: контекст, логика решения, чек-листы, FAQ.
+                </p>
+                <a href="about.html" class="link-more">Узнать больше →</a>
+            </div>
+        </section>
+
+        <!-- Latest Articles -->
+        <section class="latest-articles">
+            <div class="container">
+                <h2>Последние статьи</h2>
+                <div class="articles-grid" id="latest-articles">
+                    <!-- Статьи подгружаются JS -->
+                </div>
+                <div class="section-footer">
+                    <a href="articles.html" class="link-more">Все статьи →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 CoMind — Human+AI Journal. Все материалы созданы в диалоге.</p>
+                <p>Контакт: <a href="mailto:hello@comind.journal">hello@comind.journal</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data/articles.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
